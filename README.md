@@ -19,3 +19,7 @@ If the template were to be used as only 'informative' site, which does not need 
 If it were to be used as 'blog/journal' site, its way of displaying image links to the articles on the *Articles* tab probably would need to be rebuilt. With more and more articles added, the display may become confusing with too many images showing at once on the site. Furthermore, it could load slower and could become too long to scroll to find an article.
 
 Another improvement that could be implemented here may be a form on the *Contact* tab.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
