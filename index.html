@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+</head>
+
+<body>
+<div class="master">
+<div class="nav">
+  <a href=#>HOME</a>
+  <a href="articles-home.html">ARTICLES</a>
+  <a href="contact.html">CONTACT</a>
+</div></div>
+
+<div class="carousel">
+  <img class="slideshow slide" src="images/carousel1.jpg" alt="Landscape">
+  <img class="slideshow slide" src="images/carousel2.jpg" alt="Lietava Castle">
+  <img class="slideshow slide" src="images/carousel3.jpg" alt="Spiš Castle">
+</div>
+
+<div class="background">
+  <h2>ABOUT</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis imperdiet urna id placerat eleifend. Morbi mauris quam, porta hendrerit pellentesque vitae, mollis quis risus. Donec vel dapibus odio. Aliquam quis ligula magna. In auctor fringilla condimentum. Quisque urna ligula, varius ut orci porta, bibendum aliquet tellus. Nam dapibus massa vel enim mattis, vitae euismod sapien pretium. Phasellus in eros dolor. Nam interdum magna ut tellus aliquet, ut malesuada ante dignissim. Vestibulum porta pretium sem at convallis. Cras lectus enim, efficitur eget quam a, ornare consequat diam. Vivamus iaculis nec nisi posuere iaculis. Sed rutrum, ligula eget pretium tincidunt, neque libero consectetur libero, eget sodales lorem quam non magna. Nam sit amet urna eu ligula volutpat pulvinar.</p>
+</div>
+
+<div class="section clearfix">
+  <h2>RECENT ARTICLES</h2>
+	<div class="background-posts-white">
+	
+	<div class="responsive">
+    <div class="gallery">
+    <a href="articles/lower-silesia-czech-republic-slovakia.html">
+      <img src="images/carousel1.jpg" alt="Landscape" width="400" height="200">
+    </a>
+    <div class="desc">Lower Silesia, Czech Republic, Slovakia</div>
+  </div>
+  </div>
+  
+  <div class="responsive">
+    <div class="gallery">
+    <a href="articles/castles-article-one.html">
+      <img src="images/carousel3.jpg" alt="Castle" width="400" height="200">
+    </a>
+    <div class="desc">Magnificent castle</div>
+    </div>
+    </div>
+	
+	 <div class="responsive">
+    <div class="gallery">
+    <a href="articles/travel-poland-lower-silesia.html">
+      <img src="images/carousel1.jpg" alt="Landscape" width="400" height="200">
+    </a>
+    <div class="desc">Lower Silesia</div>
+    </div>
+    </div>
+	
+</div>	
+</div>
+
+<footer class="background">
+  <p class="center">Made by Marta</p>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("slideshow");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 4000);
+}
+</script>
+
+</body>
+</html>
