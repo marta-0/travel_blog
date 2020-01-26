@@ -1,6 +1,6 @@
 # Travel blog
 
-This is my first website project I created while learning HTML/CSS.
+This is my first website project I created while learning HTML/CSS. To look around the website, please go to: https://marta-0.github.io/travel_blog/
 
 # Purpose
 
